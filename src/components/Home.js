@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 // import axios from 'axios'
-import {Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Pokeball from '../pokeball.png'
 import { connect } from 'react-redux'
 
@@ -20,7 +20,7 @@ class Home extends Component {
 //             })
 //     }
     render() {
-        const { posts } = this.props;
+        const { posts } = this.props
         const postList = posts.length ? (
             posts.map(post => {
                 return (
